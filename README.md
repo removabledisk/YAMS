@@ -14,7 +14,7 @@ You can boot Windows, Linux ISOs, EFI files or Tools.
  
 ## Installation
 
-Download the [YAMS image file from the release page](https://github.com/Sporesirius/YAMS/releases) and write it to a USB flash drive that you can create e.g. with [Etcher](https://www.balena.io/etcher/) (for Windows, Linux and macOS).
+(Extract with 7-Zip) Download the [YAMS image file from the release page](https://github.com/Sporesirius/YAMS/releases) and write it to a USB flash drive that you can create e.g. with [Etcher](https://www.balena.io/etcher/) (for Windows, Linux and macOS).
 
 The YAMS image contains two partitions, one is the $ESP (FAT32 512MB) partition and the other is the YAMS (NTFS 512MB) partition.
 Use [gparted](https://gparted.org/) for Linux, [MiniTool Partition Wizard](https://www.minitool.com/partition-manager/) for Windows or similar tools to resize the YAMS (NTFS 512MB) partition to get full USB drive space.
